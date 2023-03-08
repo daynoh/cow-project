@@ -7,6 +7,8 @@ export function Login() {
 
   return (
         <>
+        <div className="loginBody">
+
         <h1>Dairy farming management system</h1>
         <div className="box">
             <div className="form">
@@ -34,6 +36,8 @@ export function Login() {
 
             
         </div> 
+        </div>
+        
         </>
         
         
