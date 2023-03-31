@@ -1,9 +1,16 @@
 import React,{useEffect, useState} from 'react'
-
+import { useNavigate } from 'react-router'
 export function Login() {
     const [userName, setUserName] = useState('')
     const [passWord, setPassword] = useState('')
-
+    const navigate = useNavigate()
+    const Navigate_to = ()=>{
+        
+    }
+    const onClickHandler = (e)=>{
+        e.preventDefault()
+        navigate('/production')
+    }
 
   return (
         <>
@@ -28,7 +35,7 @@ export function Login() {
                     <a href="#">Forgot Password</a>
                     <a href="#">Signup</a>
                 </div>
-                <input type="submit" value="Login" />
+                <input onClick={(e)=>onClickHandler(e)} type="submit" value="Login" />
                 
                 
 
