@@ -18,7 +18,7 @@ function App() {
         <Route path = 'production' element={<SummaryData/>}>
           
         </Route>
-        <Route path = 'login' element = {<Login/>}/>
+        <Route path = '/' element = {<Login/>}/>
       </Routes>  
         
     </div>

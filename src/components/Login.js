@@ -9,7 +9,7 @@ export function Login() {
     }
     const onClickHandler = (e)=>{
         e.preventDefault()
-        navigate('/production')
+        navigate('production')
     }
 
   return (

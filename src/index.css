@@ -197,5 +197,6 @@ input[type='submit']:active{
 }
 
 .summaryData{
-  display: flex;
+  display: grid;
+  
 }
